@@ -1,6 +1,9 @@
 .geolocation {
-  margin: 30vh;
   display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .geolocation__temperature {
   color: #fff;
@@ -33,10 +36,4 @@
   display: flex;
   margin: 0 auto;
   margin-top: 36px;
-}
-@media (max-width: 375px){
-.geolocation{
-  margin: 0 auto;
-  transform: translateY(100%);
-}
 }

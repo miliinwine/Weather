@@ -1,6 +1,9 @@
 .select__city {
-  margin: 30vh;
   display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .input {
   width: 182px;
@@ -46,10 +49,4 @@
   font-weight: 400;
   line-height: 36px;
   padding: 5px 49px 0 50px;
-}
-@media (max-width: 375px){
-.select__city{
-  margin: 0 auto;
-  transform: translateY(175%);
-}
 }

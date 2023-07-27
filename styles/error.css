@@ -1,6 +1,9 @@
 .error {
-  margin: 30vh;
   display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .error__title {
   color: #fff;
@@ -34,10 +37,4 @@
   margin: 0 auto;
   padding: 6px 26px 6px 26px;
   margin-top: 57px;
-}
-@media (max-width: 375px){
-.error {
-  margin: 0 auto;
-  transform: translateY(150%);
-}
 }
