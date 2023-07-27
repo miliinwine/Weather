@@ -1,0 +1,43 @@
+.error {
+  margin: 30vh;
+  display: none;
+}
+.error__title {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+.error__text {
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.error__button {
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
+  color: #4c01e0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  border: none;
+  display: flex;
+  margin: 0 auto;
+  padding: 6px 26px 6px 26px;
+  margin-top: 57px;
+}
+@media (max-width: 375px){
+.error {
+  margin: 0 auto;
+  transform: translateY(150%);
+}
+}

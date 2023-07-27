@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+    <title>Weather</title>
+  </head>
+  <body>
+    <header>
+      <h1>Weather</h1>
+    </header>
+    <main>
+      <div class="geolocation">
+        <p class="geolocation__temperature"></p>
+        <p class="geolocation__city"></p>
+          <button class="geolocation__button">Change city</button>
+      </div>
+      <div class="select__city">
+      <form class="form">
+      <input class="input" type="text" placeholder="Type your city here"> 
+      <div class="line"></div>
+      <button class="button">Find</button>
+      </form>
+    </div>
+      <div class="error">
+        <p class="error__title">Ooops. Something went wrong.</p>
+        <p class="error__text">Error info</p>
+          <button class="error__button">Try again</button>
+      </div>
+    </main>
+    <footer>
+      <p class="footer__text">With ❤️ by Milena</p>
+    </footer>
+    <script type="module" src="./app/script.js"></script>
+  </body>
+</html>
